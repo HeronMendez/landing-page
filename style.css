@@ -1,0 +1,23 @@
+/* 1ST PART HEADER */
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* 2ND PART - FIRST SECTION */
+ section.first_section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+ }
+
+ /* 3RD PART - SECOND SECTION */
