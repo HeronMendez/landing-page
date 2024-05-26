@@ -1,6 +1,9 @@
 /* 1ST PART HEADER */
 nav {
   display: flex;
+  background-color: aliceblue;
+  border: 1px solid black;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -18,6 +21,8 @@ section.first_section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  background-color: aquamarine;
+  border: 1px solid black;
 }
 
 /* 3RD PART - SECOND SECTION */
@@ -25,6 +30,8 @@ div.container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  background-color: khaki;
+  border: 1px solid black;
 }
 
 div.image_container {
@@ -38,4 +45,18 @@ div.image_container img{
     object-fit: cover;
 }
 
+/* 4TH PART THIRD SECTION - QUOTE */
+
+section.third_section {
+  background-color: lightsalmon;
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+/* 5TH PART FOURTH SECTION - CALL TO ACTION */
+
+section.fourth_section {
+  background-color: lightcoral;
+  border: 1px solid black;
+}
 
